@@ -1,3 +1,36 @@
+@charset "UTF-8";
+/* Estilos para el menú de navegación */
+nav {
+  background: linear-gradient(to bottom, #333, #555); /* Gradiente de color */
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Estilos para los enlaces del menú */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease; /* Transición de color al pasar el cursor */
+}
+
+nav a:hover {
+  color: #f2c039; /* Color al pasar el cursor */
+}
+
+/* Estilos para el botón del menú en dispositivos móviles */
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Estilos para el fondo del menú en dispositivos móviles al expandirse */
+.collapse.navbar-collapse.show {
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
 header {
   background-color: #007bff;
   color: white;
