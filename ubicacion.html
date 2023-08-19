@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubicacion</title>
+    <meta name="description" content="Encuentra nuestra ubicación y cómo llegar a Innova Muebles. Fabricamos muebles a medida de alta calidad.">
+    <title>Ubicacion- Innova Muebles</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Estilos específicos de esta página si es necesario */
+        body {
+            background-color: aquamarine; /* Fondo aquamarine */
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .map-container {
+            border: 5px solid;
+            border-image: linear-gradient(to right, #00bfff, #7fffd4); /* Gradiente para el borde */
+            border-image-slice: 1; /* Divide el gradiente en secciones */
+            padding: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
     </style>
 </head>
 <body>
@@ -38,10 +54,9 @@
     
     <div class="container mt-4">
         <h1>Ubicación</h1>
-        <h3>
-            CERCA SUYO SIEMPRE
-        </h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.7972938275093!2d-65.11682862578596!3d-24.388354078240454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941badf27e61f011%3A0xe4e3940f4106a4cb!2sINNOVA%20-%20Muebles%20a%20Medida!5e0!3m2!1ses!2sar!4v1689043344952!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3633.7972938275093!2d-65.11682862578596!3d-24.388354078240454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941badf27e61f011%3A0xe4e3940f4106a4cb!2sINNOVA%20-%20Muebles%20a%20Medida!5e0!3m2!1ses!2sar!4v1689043344952!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 
     <footer class="bg-dark text-white text-center py-4 mt-4">
@@ -54,3 +69,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+

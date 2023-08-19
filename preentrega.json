@@ -1,0 +1,44 @@
+{
+    "sitioWeb": {
+        "nombre": "Innova Muebles",
+        "descripcion": "Una tienda online de muebles de madera",
+        "paginas": [
+            {
+                "titulo": "Inicio",
+                "url": "index.html",
+                "descripcion": "Página de inicio del sitio"
+            },
+            {
+                "titulo": "Productos",
+                "url": "productos.html",
+                "descripcion": "Página de productos"
+            },
+            {
+                "titulo": "Contacto",
+                "url": "contacto.html",
+                "descripcion": "Página de contacto"
+            },
+            {
+                "titulo": "Ubicación",
+                "url": "ubicacion.html",
+                "descripcion": "Página de ubicación"
+            },
+            {
+                "titulo": "Origen",
+                "url": "origen.html",
+                "descripcion": "Página de origen"
+            }
+        ]
+    },
+    "archivosSass": [
+        "_mixins.scss",
+        "_variables.scss",
+        "_header.scss",
+        "_footer.scss",
+        "main.scss"
+    ],
+    "archivosCss": [
+        "main.css",
+        "main.css.map"
+    ]
+}
