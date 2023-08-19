@@ -1,3 +1,72 @@
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+header .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+header .navbar ul li {
+  margin-right: 20px;
+}
+header .navbar .hamburger-menu {
+  display: none;
+}
 
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar ul.active {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .navbar ul li {
+    margin: 10px 0;
+  }
+  .navbar .hamburger-menu {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+footer {
+  background-color: #6c757d;
+  color: white;
+  padding: 2rem;
+}
+footer .contact-info {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+footer .social-links {
+  margin-top: 2rem;
+}
+footer .social-links a {
+  color: white;
+  margin-right: 1rem;
+  font-size: 20px;
+}
+footer .social-links a:hover {
+  color: #ff9900;
+}
+footer .copyright {
+  font-size: 16px;
+  margin-top: 2rem;
+}
 
 /*# sourceMappingURL=main.css.map */
