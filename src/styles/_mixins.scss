@@ -1,0 +1,46 @@
+// _mixins.scss
+
+// Mixin para centrar elementos horizontalmente y verticalmente
+@mixin center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  // Mixin para crear un botón estilizado
+  @mixin button($background-color, $color: white) {
+    background-color: $background-color;
+    color: $color;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: $border-radius;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: darken($background-color, 10%);
+    }
+  }
+  
+  // Mixin para crear un contenedor de producto
+  @mixin product-container {
+    border: 1px solid $secondary-color;
+    padding: $spacing-unit;
+    border-radius: $border-radius;
+  
+    img {
+      max-width: $product-image-max-width;
+      height: auto;
+    }
+  
+    h3 {
+      font-size: $heading-font-size;
+      margin-top: $spacing-unit;
+    }
+  
+    p {
+      font-size: $base-font-size;
+      color: $secondary-color;
+    }
+  }
+  
