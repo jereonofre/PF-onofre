@@ -3,9 +3,10 @@
 
 /* Estilos generales */
 body {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #007bff;
@@ -41,15 +42,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
 }
 
-/* Consultas de medios para tamaños de pantalla específicos */
 /* Pantallas pequeñas (tabletas) */
 @media (max-width: 768px) {
 .container { padding: 10px;
     }
-
+}
 
 /* Pantallas más pequeñas (teléfonos móviles) */
 @media (max-width: 576px) {
+    
+}
     h1 
     {    font-size: 24px;
     }
@@ -59,10 +61,4 @@ h1, h2, h3, h4, h5, h6 {
     h1 {
         font-size: 36px;
     }
-}
-
-/* Estilos para imágenes y multimedia */
-img {
-    max-width: 100%;
-    height: auto;
 }
